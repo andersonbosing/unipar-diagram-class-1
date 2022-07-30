@@ -51,4 +51,8 @@ public class Locacao {
         this.jogosLocados = jogosLocados;
     }
     
+    public void addJogo(Jogo jogo) {
+        this.jogosLocados.add(jogo);
+    }
+    
 }
